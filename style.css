@@ -1,0 +1,102 @@
+.class-form {
+    display: block;
+
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+.exercise-form {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background: rgb(88, 88, 222);
+}
+
+.exercise-form-frame {
+    display: flex;
+    width: 450px;
+    height: 500px;
+    margin: 50px auto;
+    border: 2px solid blue;
+    background: rgb(15, 15, 178);
+}
+
+.exercise-header {
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin: 20px 0 10px 0;
+}
+
+.exercise-sup {
+    font-size: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.form-elems {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: fit-content;
+    width: 80%;
+    padding: 0 30px;
+
+}
+
+
+.elem-items {
+    width: 100%;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.elem-items input {
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(109, 109, 236);
+}
+
+.elem-items ::placeholder {
+    color: #fff;
+}
+
+textarea {
+    width: 105%;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(109, 109, 236);
+}
+
+.btn {
+    padding: 15px 20px;
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.btn input {
+    background: transparent;
+    color: white;
+    border: none;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+fieldset {
+    border: 2px solid white;
+}
+
+legend {
+    color: #fff;
+}
